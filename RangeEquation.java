@@ -1,7 +1,7 @@
 import static java.lang.Math.*;
 import static java.lang.System.*;
 
-public class HelloWorld {
+public class RangeEquation {
     public static void main(String [] args) {
         double thetaDeg = toRadians(30);
         double initVel = 10;
