@@ -14,15 +14,15 @@ public class RangeEquation {
     public static double rangeCalc(double theta, double initVel)
     {
         //Range Equation: x=(2v^2*sin(theta)*cos(theta))/g
-        double grav = 9.8;
+        double grav = 9.8; //Acceleration due to Gravity
         double thetaDeg = theta;
        
         double answer = 2*(pow(initVel, 2)*sin(thetaDeg)*cos(thetaDeg))/grav;
        
-        out.println("Initial Velocity: " + initVel);
-        out.println("Theta: " + thetaDeg);
-        out.println("Sine of Theta: " + sin(thetaDeg));
-        out.println("Cosine of Theta: " + cos(thetaDeg));
+        out.println("Initial Velocity: " + initVel); //Prints Initial Velocity
+        out.println("Theta: " + thetaDeg); //Prints angle 'Theta'
+        out.println("Sine of Theta: " + sin(thetaDeg)); //Prints Sine of Angle
+        out.println("Cosine of Theta: " + cos(thetaDeg)); //Prints Cosine of Angle
         return answer;
     }
    
